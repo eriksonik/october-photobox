@@ -1,0 +1,7 @@
+1.0.1: First version of Photobox
+1.0.2:
+    - Create table manage
+    - create_image_managers_table.php
+1.0.3:
+    - Reautor plugin.
+    - Change path css- and js-files.

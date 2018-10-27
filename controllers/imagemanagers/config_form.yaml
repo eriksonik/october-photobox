@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Менеджер изображений
+
+# Model Form Field configuration
+form: $/eriks/photobox/models/imagemanager/fields.yaml
+
+# Model Class name
+modelClass: Eriks\Photobox\Models\ImageManager
+
+# Default redirect location
+defaultRedirect: eriks/photobox/imagemanagers
+
+# Create page
+create:
+    title: Создание нового менеджера изображений
+    redirect: eriks/photobox/imagemanagers/update/:id
+    redirectClose: eriks/photobox/imagemanagers
+
+# Update page
+update:
+    title: Изменить менеджер изображений
+    redirect: eriks/photobox/imagemanagers
+    redirectClose: eriks/photobox/imagemanagers
+
+# Preview page
+preview:
+    title: Предпросмотр менеджера изображений

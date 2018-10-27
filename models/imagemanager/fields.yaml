@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Наименование менеджера
+        type: text
+    photos:
+        label: Изображения
+        type: fileupload
+        mode: image
+        imageWidth: 100
+        imageHeight: 100
