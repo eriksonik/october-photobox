@@ -1,0 +1,11 @@
+<ul class="photobox-gallery photobox-thumbnail-{{ size }}">
+    {% for photo in photos.photos %}
+    <li class="loaded">
+        <a href="{{ photo.path }}">
+            <img src="{{ photo.path }}"
+                 title="{{ photo.title }}">
+        </a>
+    </li>
+    {% else %}
+    {% endfor %}
+</ul>

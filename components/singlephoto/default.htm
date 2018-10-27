@@ -1,0 +1,9 @@
+{% if singleIcon %}
+<span class="photobox-single-img">
+<a href="{{ singleImg }}"><i class="fa fa-{{ singleIcon }}" aria-hidden="true"></i></a>
+</span>
+{% else %}
+<div class="photobox-single-image photobox-thumbnail-{{ singleSize }}"><div class="loaded">
+    <a href="{{ singleImg }}"><img src="{{ singleThumb }}" title="{{ singleTitme }}"></a>
+</div></div>
+{% endif %}
